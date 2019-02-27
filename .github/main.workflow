@@ -22,7 +22,7 @@ action "Release" {
   args = "run release"
   runs = "yarn"
   secrets = [
-    "GH_TOKEN",
     "NPM_TOKEN",
+    "GITHUB_TOKEN",
   ]
 }
