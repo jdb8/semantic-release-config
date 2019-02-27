@@ -1,0 +1,38 @@
+{
+  "name": "@jbateson/semantic-release-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Joe Bateson <joe@joebateson.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn node index.js",
+    "release": "semantic-release"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdb8/eslint-config"
+  },
+  "installConfig": {
+    "pnp": true
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/git": "^7.0.8",
+    "@semantic-release/github": "^5.2.10",
+    "@semantic-release/npm": "^5.1.4",
+    "@semantic-release/release-notes-generator": "^7.1.4"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.3"
+  },
+  "peerDependencies": {
+    "semantic-release": "^15.13.3"
+  },
+  "release": {
+    "extends": "./index.js"
+  }
+}
