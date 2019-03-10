@@ -24,6 +24,6 @@ action "Release" {
   runs = "yarn"
   secrets = [
     "NPM_TOKEN",
-    "GITHUB_TOKEN",
+    "GH_TOKEN",
   ]
 }
