@@ -5,7 +5,8 @@ workflow "New workflow" {
 
 action "Install" {
   uses = "actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680"
-  args = "install"
+  # Set a .cache folder that's shared across actions to make PnP work
+  args = ["install", "--cache-folder", ".cache"]
   runs = "yarn"
 }
 
