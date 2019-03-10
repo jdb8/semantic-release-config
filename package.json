@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jdb8/eslint-config"
+    "url": "https://github.com/jdb8/semantic-release-config"
   },
   "installConfig": {
     "pnp": true
