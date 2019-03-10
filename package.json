@@ -1,6 +1,5 @@
 {
   "name": "@jbateson/semantic-release-config",
-  "version": "1.0.0",
   "main": "index.js",
   "author": "Joe Bateson <joe@joebateson.com>",
   "license": "MIT",
