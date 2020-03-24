@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "test": "yarn node index.js",
-    "release": "rm -rf .npmrc && semantic-release"
+    "release": "rm -fv ~/.npmrc && rm -fv .npmrc && semantic-release"
   },
   "publishConfig": {
     "access": "public"
